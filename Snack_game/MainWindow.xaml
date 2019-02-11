@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Snack_game"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="450" Width="800"
+        KeyDown="OnKeyDownDD">
+    <Grid Background="Black" >
+        <Canvas Name="Background"></Canvas>
+        <Canvas Name="Canvas1" >
+            
+        </Canvas>
     </Grid>
 </Window>
