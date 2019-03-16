@@ -7,10 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         KeyDown="OnKeyDownDD">
-    <Grid Background="Black" >
-        <Canvas Name="Background"></Canvas>
-        <Canvas Name="Canvas1" >
-            
-        </Canvas>
+    <Grid Name="CanvasGrid" Background="Black" >
+        <!--<Canvas Name="Background"/>
+        <Canvas Name="SnakeCanvas" />
+        <Canvas Name="BonusCanvas" />-->
+
+
     </Grid>
 </Window>

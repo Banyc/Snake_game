@@ -68,6 +68,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Bonus.vb" />
+    <Compile Include="GameManager.vb" />
+    <Compile Include="Map.vb" />
+    <Compile Include="Mapping.vb" />
+    <Compile Include="Snake.vb" />
+    <Compile Include="Wall.vb" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
