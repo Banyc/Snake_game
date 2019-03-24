@@ -114,7 +114,7 @@ Public Class Mapping
         Return rect
     End Function
 
-    Protected Sub Clear()
+    Public Overridable Sub Clear()
         For Each pos In _bodies
             _map.CleanNode(pos)
         Next

@@ -21,7 +21,7 @@
         Next
     End Sub
 
-    Public Sub ClearAll()
+    Public Overrides Sub Clear()
         MyBase.Clear()
     End Sub
 End Class

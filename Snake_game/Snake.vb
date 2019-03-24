@@ -37,7 +37,7 @@
 
     ' paints a new snake
     Public Sub NewSnake()
-        ClearSnake()
+        Clear()
         _IsGG = False
 
         ' draws the dot on canvas
@@ -46,7 +46,7 @@
 
     ' paints a new snake
     Public Sub NewSnake(startPos As Point)
-        ClearSnake()
+        Clear()
         _IsGG = False
 
         ' draws the dot on canvas
@@ -129,7 +129,7 @@
 
     End Sub
 
-    Public Sub ClearSnake()
+    Public Overrides Sub Clear()
         _prevDirec = Direction.None
 
         MyBase.Clear()

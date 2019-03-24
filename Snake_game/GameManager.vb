@@ -87,10 +87,10 @@ Public Class GameManager
         ' cleans historical map and momentum
         ResetDirec()
         For Each snake In _snakes
-            snake.ClearSnake()
+            snake.Clear()
         Next
-        _bonus.ClearAll()
-        _wall.ClearAll()
+        _bonus.Clear()
+        _wall.Clear()
         _map.Clear()
 
         ' initiates the map elements
